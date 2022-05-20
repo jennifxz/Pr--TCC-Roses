@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 
 export default function Mark() {
   return (
-    <main class="page-mark">
-      <div class="info">
+    <main className="page-mark">
+      <div className="info">
         <Link to="/marcadas">Voltar</Link>
         <h1 style="color: #40C0CB; font-size: 2.3em; font-family: rose-bold;">
           MARCAR CONSULTA
         </h1>
 
-        <div class="registro">
-          <div class="paciente">
+        <div className="registro">
+          <div className="paciente">
             <label for="">Nome do paciente</label>
             <input
               style="width: 100%;"
@@ -19,32 +19,32 @@ export default function Mark() {
               placeholder="Ex: Urias Conceição da Silva"
             />
           </div>
-          <div class="formulario-1">
-            <div class="paciente">
+          <div className="formulario-1">
+            <div className="paciente">
               <label for="">Data de nascimento</label>
               <input type="date" />
             </div>
-            <div class="paciente">
+            <div className="paciente">
               <label for="">CPF do paciente</label>
               <input type="text" />
             </div>
           </div>
-          <div class="formulario-2">
-            <div class="paciente">
+          <div className="formulario-2">
+            <div className="paciente">
               <label for="">Horário</label>
               <input type="time" />
             </div>
-            <div class="paciente">
+            <div className="paciente">
               <label for="">Data de consulta</label>
               <input type="date" />
             </div>
           </div>
-          <div class="formulario-3">
-            <div class="paciente">
+          <div className="formulario-3">
+            <div className="paciente">
               <label for="">Preço</label>
               <input type="number" />
             </div>
-            <div class="paciente">
+            <div className="paciente">
               <label for="">Contato</label>
               <input type="text" />
             </div>

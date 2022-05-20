@@ -55,7 +55,7 @@ export default function Scheduled() {
               </div>
             </div>
             <a>
-              <div class="azulzin">
+              <div className="azulzin">
                 <div>
                   <p>ANA BEATRIZ PEREIRA DOS REIS</p>
                   <p>CPF:154.365.774-29</p>
@@ -64,7 +64,7 @@ export default function Scheduled() {
                   <p>Data: 04/03/2022</p>
                   <p>Horário:13:00h</p>
                 </div>
-                <div class="icons">
+                <div className="icons">
                   <a href="../mark/index.html">
                     {" "}
                     <img src="/images/edit.png" />
@@ -77,7 +77,7 @@ export default function Scheduled() {
               </div>
             </a>
             <a>
-              <div class="azulzin">
+              <div className="azulzin">
                 <div>
                   <p>MARIA LUIZA SANTOS LIMA</p>
                   <p>CPF:211.368.741-01</p>
@@ -86,7 +86,7 @@ export default function Scheduled() {
                   <p>Data: 04/03/2022</p>
                   <p>Horário:10:00h</p>
                 </div>
-                <div class="icons">
+                <div className="icons">
                   <a href="../mark/index.html">
                     {" "}
                     <img src="/images/edit.png" />
@@ -99,7 +99,7 @@ export default function Scheduled() {
               </div>
             </a>
             <a>
-              <div class="azulzin">
+              <div className="azulzin">
                 <div>
                   <p>MARIA EDUARDA SAMPAIO SILVA</p>
                   <p>CPF:544.798.758-52</p>
@@ -108,7 +108,7 @@ export default function Scheduled() {
                   <p>Data: 04/03/2022</p>
                   <p>Horário:10:00h</p>
                 </div>
-                <div class="icons">
+                <div className="icons">
                   <a href="../mark/index.html">
                     {" "}
                     <img src="/images/edit.png" />
@@ -121,7 +121,7 @@ export default function Scheduled() {
               </div>
             </a>
             <a>
-              <div class="azulzin">
+              <div className="azulzin">
                 <div>
                   <p>VICTOR SANTOS PEREIRA</p>
                   <p>CPF:683.331.650-11</p>
@@ -130,7 +130,7 @@ export default function Scheduled() {
                   <p>Data: 04/03/2022</p>
                   <p>Horário:11:00h</p>
                 </div>
-                <div class="icons">
+                <div className="icons">
                   <a href="../mark/index.html">
                     {" "}
                     <img src="/images/edit.png" />
@@ -143,7 +143,7 @@ export default function Scheduled() {
               </div>
             </a>
             <a>
-              <div class="azulzin">
+              <div className="azulzin">
                 <div>
                   <p>JULIANO PISTORI</p>
                   <p>CPF:331.651.898-21</p>
@@ -152,7 +152,7 @@ export default function Scheduled() {
                   <p>Data: 04/03/2022</p>
                   <p>Horário:13:00h</p>
                 </div>
-                <div class="icons">
+                <div className="icons">
                   <a href="../mark/index.html">
                     {" "}
                     <img src="/images/edit.png" />
@@ -165,7 +165,7 @@ export default function Scheduled() {
               </div>
             </a>
             <a>
-              <div class="azulzin">
+              <div className="azulzin">
                 <div>
                   <p>LETICIA ROCHA BARBOSA</p>
                   <p>CPF:251.777.254-30</p>
@@ -174,7 +174,7 @@ export default function Scheduled() {
                   <p>Data: 25/03/2022</p>
                   <p>Horário:08:00h</p>
                 </div>
-                <div class="icons">
+                <div className="icons">
                   <a href="../mark/index.html">
                     {" "}
                     <img src="/images/edit.png" />
@@ -188,7 +188,7 @@ export default function Scheduled() {
             </a>
           </div>
         </div>
-        <footer class="rodape">
+        <footer className="rodape">
           <img
             className="logos"
             src="/images/logo-hori.jpg"

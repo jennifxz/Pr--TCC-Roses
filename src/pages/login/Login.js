@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 export default function Login() {
   return (
     <main className="page-login">
-      <Link to="/" class="button-return">
+      <Link to="/" className="button-return">
         <p>Página Inicial</p>
       </Link>
-      <img src="/images/unknown.png" class="logo-login" />
-      <div class="login-psicologo">
+      <img src="/images/unknown.png" className="logo-login" />
+      <div className="login-psicologo">
         <label for="email">
           <b>E-mail:</b>
         </label>
@@ -22,7 +22,7 @@ export default function Login() {
           <b>Palavra-passe</b>
         </label>
         <input type="password" placeholder="Senha" name="senha" required />
-        <Link to="/arquivadas" class="button-submit">
+        <Link to="/arquivadas" className="button-submit">
           Entrar
         </Link>
       </div>
