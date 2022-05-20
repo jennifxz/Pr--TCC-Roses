@@ -154,7 +154,9 @@ function Home() {
           </div>
         </div>
 
-        <footer>
+
+      </section>
+      <footer>
           <div className="footer">
             <div className="footer-container2">
               <img className="logos" src="/images/logo-hori.jpg" alt="" />
@@ -187,7 +189,6 @@ function Home() {
             </div>
           </div>
         </footer>
-      </section>
     </main>
   );
 }

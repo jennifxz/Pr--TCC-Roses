@@ -13,11 +13,6 @@
         }
     }
 
-
-    p {
-        font-family: 'rose-regular';
-    }
-
     h1,
     h2 {
         font-family: 'rose-regular';
@@ -87,12 +82,12 @@
 
     }
 
-    .pesquisa-elements>input {
-        height: 2.8em;
-        padding: 2em;
+    .pesquisa-elements input {
+        height: 2em;
+        padding: 15px;
         width: 100%;
         border: none;
-        border-radius: 15px;
+        border-radius: 13px;
         animation: none;
         text-decoration: none;
         outline: none;
@@ -133,7 +128,7 @@
     .azulzin {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         padding: 0px 40px;
         background-color: #C5DBDE;
@@ -142,6 +137,10 @@
         height: 7em;
         margin-bottom: 40px;
         transition: transform .7s;
+    }
+
+    .azulzin > p{
+        font-family: 'rose-regular';
     }
 
     .azulzin:hover {

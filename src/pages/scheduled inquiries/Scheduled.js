@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 export default function Scheduled() {
   return (
     <main className="page-scheduled">
-      <div className="mae">
+
+      <section className="mae">
         <header className="menu">
           <img
             className="logos"
@@ -16,7 +17,7 @@ export default function Scheduled() {
             Arquivadas
           </Link>
 
-          <Link className="buttons" href="/marcar">
+          <Link className="buttons" to="/marcar">
             Marcar Consulta
           </Link>
 
@@ -34,27 +35,29 @@ export default function Scheduled() {
           <div className="arquivadas">
             <h2>Consultas Marcadas</h2>
 
-            <div className="azulzin">
-              <div>
-                <p>JULIANA DE CASSIA JUNQUEIRA</p>
-                <p>CPF: 798.155.281-72</p>
+            <Link to='/anotacoes'>
+              <div className="azulzin">
+                <div>
+                  <p>JULIANA DE CASSIA JUNQUEIRA</p>
+                  <p>CPF: 798.155.281-72</p>
+                </div>
+                <div>
+                  <p>Data: 04/03/2022</p>
+                  <p>Horário:10:00h</p>
+                </div>
+                <div className="icons">
+                  <Link to='/marcar'>
+                    {" "}
+                    <img src="/images/edit.png" />
+                  </Link>
+                  <Link to='/marcar'>
+                    {" "}
+                    <img src="/images/trash.png" />
+                  </Link>
+                </div>
               </div>
-              <div>
-                <p>Data: 04/03/2022</p>
-                <p>Horário:10:00h</p>
-              </div>
-              <div className="icons">
-                <a href="../mark/index.html">
-                  {" "}
-                  <img src="/images/edit.png" />
-                </a>
-                <a href="../mark/index.html">
-                  {" "}
-                  <img src="/images/trash.png" />
-                </a>
-              </div>
-            </div>
-            <a>
+            </Link>
+            <Link to='/anotacoes'>
               <div className="azulzin">
                 <div>
                   <p>ANA BEATRIZ PEREIRA DOS REIS</p>
@@ -65,18 +68,18 @@ export default function Scheduled() {
                   <p>Horário:13:00h</p>
                 </div>
                 <div className="icons">
-                  <a href="../mark/index.html">
+                  <Link to='/marcar'>
                     {" "}
                     <img src="/images/edit.png" />
-                  </a>
-                  <a href="../mark/index.html">
+                  </Link>
+                  <Link to='/marcar'>
                     {" "}
                     <img src="/images/trash.png" />
-                  </a>
+                  </Link>
                 </div>
               </div>
-            </a>
-            <a>
+            </Link>
+            <Link to='/anotacoes'>
               <div className="azulzin">
                 <div>
                   <p>MARIA LUIZA SANTOS LIMA</p>
@@ -87,18 +90,18 @@ export default function Scheduled() {
                   <p>Horário:10:00h</p>
                 </div>
                 <div className="icons">
-                  <a href="../mark/index.html">
+                  <Link to='/marcar'>
                     {" "}
                     <img src="/images/edit.png" />
-                  </a>
-                  <a href="../mark/index.html">
+                  </Link>
+                  <Link to='/marcar'>
                     {" "}
                     <img src="/images/trash.png" />
-                  </a>
+                  </Link>
                 </div>
               </div>
-            </a>
-            <a>
+            </Link>
+            <Link to='/anotacoes'>
               <div className="azulzin">
                 <div>
                   <p>MARIA EDUARDA SAMPAIO SILVA</p>
@@ -109,18 +112,18 @@ export default function Scheduled() {
                   <p>Horário:10:00h</p>
                 </div>
                 <div className="icons">
-                  <a href="../mark/index.html">
+                  <Link to='/marcar'>
                     {" "}
                     <img src="/images/edit.png" />
-                  </a>
-                  <a href="../mark/index.html">
+                  </Link>
+                  <Link to='/marcar'>
                     {" "}
                     <img src="/images/trash.png" />
-                  </a>
+                  </Link>
                 </div>
               </div>
-            </a>
-            <a>
+            </Link>
+            <Link to='/anotacoes'>
               <div className="azulzin">
                 <div>
                   <p>VICTOR SANTOS PEREIRA</p>
@@ -131,18 +134,18 @@ export default function Scheduled() {
                   <p>Horário:11:00h</p>
                 </div>
                 <div className="icons">
-                  <a href="../mark/index.html">
+                  <Link to='/marcar'>
                     {" "}
                     <img src="/images/edit.png" />
-                  </a>
-                  <a href="../mark/index.html">
+                  </Link>
+                  <Link to='/marcar'>
                     {" "}
                     <img src="/images/trash.png" />
-                  </a>
+                  </Link>
                 </div>
               </div>
-            </a>
-            <a>
+            </Link>
+            <Link to='/anotacoes'>
               <div className="azulzin">
                 <div>
                   <p>JULIANO PISTORI</p>
@@ -153,18 +156,18 @@ export default function Scheduled() {
                   <p>Horário:13:00h</p>
                 </div>
                 <div className="icons">
-                  <a href="../mark/index.html">
+                  <Link to='/marcar'>
                     {" "}
                     <img src="/images/edit.png" />
-                  </a>
-                  <a href="../mark/index.html">
+                  </Link>
+                  <Link to='/marcar'>
                     {" "}
                     <img src="/images/trash.png" />
-                  </a>
+                  </Link>
                 </div>
               </div>
-            </a>
-            <a>
+            </Link>
+            <Link to='/anotacoes'>
               <div className="azulzin">
                 <div>
                   <p>LETICIA ROCHA BARBOSA</p>
@@ -175,17 +178,17 @@ export default function Scheduled() {
                   <p>Horário:08:00h</p>
                 </div>
                 <div className="icons">
-                  <a href="../mark/index.html">
+                  <Link to='/marcar'>
                     {" "}
                     <img src="/images/edit.png" />
-                  </a>
-                  <a href="../mark/index.html">
+                  </Link>
+                  <Link to='/marcar'>
                     {" "}
                     <img src="/images/trash.png" />
-                  </a>
+                  </Link>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
         <footer className="rodape">
@@ -200,7 +203,7 @@ export default function Scheduled() {
             lembranças.”
           </p>
         </footer>
-      </div>
+      </section>
     </main>
   );
 }

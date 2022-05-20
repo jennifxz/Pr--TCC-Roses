@@ -4,11 +4,12 @@
         to   { opacity: 1; }
     }
     
-    img{
+    .logo-login{
         height:17em;
+        margin-bottom: 3em;
     }
     
-    main{
+    section{
         background-color: #F9F3E7;
         display: flex;
         flex-direction: column;
@@ -20,12 +21,11 @@
         height: 100vh;
     }
     
-    .button-return 
-    {
+    .button-return {
         font-family: rose-bold;
         background-color:#AEE239;
         color:#fff;
-        padding: 13px;
+        padding: 5px 30px;
         border-radius: 2em;
         text-decoration: none;
         margin: 2em;
@@ -45,15 +45,16 @@
     
     }
     
-    .login-psicologo input{
+    .login-psicologo > input{
         margin:1.1em;
         border:none;
         outline: none;
         padding: 1em;
-        height: 5em;
+        height: 3em;
         width: 30em;
         font-size: 14px;
         border-radius: 0.5em;
+        padding: 5px;
     }
     
     .login-psicologo label{

@@ -47,7 +47,7 @@
         align-items: center;
     }
 
-    a {
+    Link {
         text-decoration: none;
         color: black;
         font-family: 'rose-regular';
@@ -82,14 +82,11 @@
     .pesquisa-elements {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
-
     }
 
-    .pesquisa-elements>input {
-        height: 2.8em;
-        padding: 2em;
+    .pesquisa-elements input {
+        height: 2em;
+        padding: 15px;
         width: 100%;
         border: none;
         border-radius: 15px;
@@ -126,8 +123,8 @@
         width: 2em;
     }
 
-    a>img {
-        width: 2em;
+    Link > img {
+        width: 10px;
     }
 
     .azulzin {
