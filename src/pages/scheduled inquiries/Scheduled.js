@@ -48,11 +48,13 @@ export default function Scheduled() {
                 <div className="icons">
                   <Link to='/marcar'>
                     {" "}
-                    <img src="/images/edit.png" />
+                    <img src="/images/edit.png" 
+                    alt=""/>
                   </Link>
                   <Link to='/marcar'>
                     {" "}
-                    <img src="/images/trash.png" />
+                    <img src="/images/trash.png" 
+                    alt=""/>
                   </Link>
                 </div>
               </div>
@@ -70,11 +72,13 @@ export default function Scheduled() {
                 <div className="icons">
                   <Link to='/marcar'>
                     {" "}
-                    <img src="/images/edit.png" />
+                    <img src="/images/edit.png" 
+                    alt=""/>
                   </Link>
                   <Link to='/marcar'>
                     {" "}
-                    <img src="/images/trash.png" />
+                    <img src="/images/trash.png" 
+                    alt=""/>
                   </Link>
                 </div>
               </div>
@@ -92,11 +96,13 @@ export default function Scheduled() {
                 <div className="icons">
                   <Link to='/marcar'>
                     {" "}
-                    <img src="/images/edit.png" />
+                    <img src="/images/edit.png" 
+                    alt=""/>
                   </Link>
                   <Link to='/marcar'>
                     {" "}
-                    <img src="/images/trash.png" />
+                    <img src="/images/trash.png" 
+                    alt=""/>
                   </Link>
                 </div>
               </div>
@@ -114,11 +120,13 @@ export default function Scheduled() {
                 <div className="icons">
                   <Link to='/marcar'>
                     {" "}
-                    <img src="/images/edit.png" />
+                    <img src="/images/edit.png" 
+                    alt=""/>
                   </Link>
                   <Link to='/marcar'>
                     {" "}
-                    <img src="/images/trash.png" />
+                    <img src="/images/trash.png"
+                    alt="" />
                   </Link>
                 </div>
               </div>
@@ -136,11 +144,13 @@ export default function Scheduled() {
                 <div className="icons">
                   <Link to='/marcar'>
                     {" "}
-                    <img src="/images/edit.png" />
+                    <img src="/images/edit.png"
+                    alt="" />
                   </Link>
                   <Link to='/marcar'>
                     {" "}
-                    <img src="/images/trash.png" />
+                    <img src="/images/trash.png"
+                    alt="" />
                   </Link>
                 </div>
               </div>
@@ -158,11 +168,13 @@ export default function Scheduled() {
                 <div className="icons">
                   <Link to='/marcar'>
                     {" "}
-                    <img src="/images/edit.png" />
+                    <img src="/images/edit.png" 
+                    alt=""/>
                   </Link>
                   <Link to='/marcar'>
                     {" "}
-                    <img src="/images/trash.png" />
+                    <img src="/images/trash.png"
+                    alt=""/>
                   </Link>
                 </div>
               </div>
@@ -180,11 +192,14 @@ export default function Scheduled() {
                 <div className="icons">
                   <Link to='/marcar'>
                     {" "}
-                    <img src="/images/edit.png" />
+                    <img src="/images/edit.png" 
+                    alt=""/>
                   </Link>
                   <Link to='/marcar'>
                     {" "}
-                    <img src="/images/trash.png" />
+                    <img src="/images/trash.png" 
+                    alt=""/>
+                    
                   </Link>
                 </div>
               </div>
